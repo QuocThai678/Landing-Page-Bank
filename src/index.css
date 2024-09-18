@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .check-content {
+        @apply flex items-center space-x-8;
+    }
+
+    .btn-hover {
+        @apply z-10 cursor-pointer text-16 font-semibold hover:text-pink-600 dark:hover:text-purple-500;
+    }
+}
